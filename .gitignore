@@ -1,0 +1,11 @@
+﻿# Gradle
+gradle-*.zip
+/.gradle
+build
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Android
+app/build
+.idea
+*.iml

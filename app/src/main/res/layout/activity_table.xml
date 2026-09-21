@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="8dp"
+    android:background="#1a1a1a">
+
+    <TableRow android:background="#2a2a2a" android:padding="8dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_column="0"
+            android:layout_span="2"
+            android:text="Hello TableLayout"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical" />
+    </TableRow>
+
+    <TableRow android:padding="8dp" android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_view"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="Open..."
+            android:textColor="#fff" android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="Ctrl-O"
+            android:textColor="#aaa"
+            android:gravity="right" />
+    </TableRow>
+
+    <View android:layout_height="1dp" android:background="#444" />
+
+    <TableRow android:padding="8dp" android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_save"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="Save..."
+            android:textColor="#fff" android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text=""
+            android:textColor="#aaa"
+            android:gravity="right" />
+    </TableRow>
+
+    <View android:layout_height="1dp" android:background="#444" />
+
+    <TableRow android:padding="8dp" android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_save"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="Save As..."
+            android:textColor="#fff" android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="Ctrl-Shift-S"
+            android:textColor="#aaa"
+            android:gravity="right" />
+    </TableRow>
+
+    <View android:layout_height="1dp" android:background="#444" />
+
+    <TableRow android:padding="8dp" android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="X Import..."
+            android:textColor="#ccc" android:textSize="16sp"
+            android:alpha="0.5" />
+        <TextView
+            android:layout_width="0dp"
+            android:text=""
+            android:textColor="#aaa"
+            android:gravity="right" />
+    </TableRow>
+
+    <View android:layout_height="1dp" android:background="#444" />
+
+    <TableRow android:padding="8dp" android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="X Export..."
+            android:textColor="#ccc" android:textSize="16sp"
+            android:alpha="0.5" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="Ctrl-E"
+            android:textColor="#aaa"
+            android:gravity="right" />
+    </TableRow>
+
+    <View android:layout_height="1dp" android:background="#444" />
+
+    <TableRow android:padding="8dp" android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="Quit"
+            android:textColor="#fff" android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:text=""
+            android:textColor="#aaa"
+            android:gravity="right" />
+    </TableRow>
+
+</TableLayout>
